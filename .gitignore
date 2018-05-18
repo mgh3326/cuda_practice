@@ -1,5 +1,59 @@
 
-# Created by https://www.gitignore.io/api/cuda,visualstudio,visualstudiocode
+# Created by https://www.gitignore.io/api/c,cuda,visualstudio,visualstudiocode
+
+### C ###
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
 
 ### CUDA ###
 *.i
@@ -71,11 +125,7 @@ artifacts/
 *_i.c
 *_p.c
 *_i.h
-*.ilk
 *.meta
-*.obj
-*.pch
-*.pdb
 *.pgc
 *.pgd
 *.rsp
@@ -314,4 +364,4 @@ __pycache__/
 # should be stored in the .pubxml.user file.
 
 
-# End of https://www.gitignore.io/api/cuda,visualstudio,visualstudiocode
+# End of https://www.gitignore.io/api/c,cuda,visualstudio,visualstudiocode
