@@ -7,7 +7,7 @@
 // nvcc hello-world.cu -L /usr/local/cuda/lib -lcudart -o hello-world
 
 #include <stdio.h>
-
+#include <Windows.h>
 const int N = 16; 
 const int blocksize = 16; 
 
@@ -42,6 +42,6 @@ int main()
 	cudaFree( bd );
 	
 	printf("%s\n", a);
-	sleep(1);
+	Sleep(1);
 	return EXIT_SUCCESS;
 }
